@@ -61,7 +61,7 @@ A Mendix widget provide simple and compact confirmation dialog of an action, whi
 | disabled              | 阻止点击 Popconfirm 子元素时弹出确认框       | Y    |                     |
 | icon                  | 自定义弹出气泡 Icon 图标                    | N    | 存在 CSS 覆盖问题待补全     |
 | okText                | 确认按钮文字                                | Y    |                      |
-| okType                | 确认按钮类型                                | Y    |                      |
+| okType                | 确认按钮类型                                | N    | 暂无需用到                     |
 | showCancel            | 是否显示取消按钮                            | Y    |                      |
 | title                 | 确认框的描述                                | Y    |                      |
 | onCancel              | 点击取消的回调                              | Y    |                      |
