@@ -1,7 +1,7 @@
 {
   "name": "antdpopconfirm",
   "widgetName": "AntdPopConfirm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Mendix widget provide simple and compact confirmation dialog of an action, which based on Ant Design Component.",
   "copyright": "© Mendix Technology BV 2022. All rights reserved.",
   "author": "Gavin Chen",

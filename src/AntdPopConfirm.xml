@@ -6,9 +6,7 @@
     <name>Antd Pop Confirm</name>
     <description>A Mendix widget provide simple and compact confirmation dialog of an action, which based on Ant Design Component.</description>
     <studioProCategory>Ant Design Widgets</studioProCategory>
-    <icon>
-        iVBORw0KGgoAAAANSUhEUgAAALYAAABbCAMAAADp9I9qAAABX1BMVEUAAADm5ubo6Ojq6ur09PTy8vLz8/Pt7e3u7u7v7+/v7+/v7+/w8PDv7+/v7+/v7+/v7+/v7+/v7+/x8fHx8fHx8fHv7+/w8PDw8PDw8PDw8PDw8PDx8fHv7+/w8PDw8PDw8PDw8PDw8PDx8fHx8fHx8fHx8fHx8fHx8fHy8vLz8/Pw8PD19fX29vbw8PDx8fH29vbw8PDx8fH39/fx8fH39/fx8fH39/f39/f39/f39/f4+Pj39/cWd/8eHh4ifv8jfv8kf/8mgP8mgf8ngf9fov9io/9kpP9lpf/Z2dnb6v/e3t7i4uLj4+Pk5OTk8P/l8P/m5ubs7Ozt7e339/f4+Pj5+fn6rRT6rRX6sR76sR/6sSD6sSH6siL7vD/7vED7vUH7vUL7v0j7wEr7+/v81YX81Yb81Yf81oj81on8/Pz93Jv95LH95LL95bP9/f3+/v7/+Ov/+Oz/+e3///9t1wjEAAAAPXRSTlMACgsMFycqKzw+QEFCT15fYGFib3BxcnR2d3p7f4CEiJqbnLO0tbbOz/Dw8/Pz9PT09fX3+Pj5+fr8/f3+xtuX1AAAAAFiS0dEdN9tqG0AAAJqSURBVHja7dvpU9pAGAbwpSoWrLVUa6VV8bZQQCORHpFirTcWVEhQwBsV76D5/6cQrth2JnHajHna9xkmyYf98JudnU122ZcxNU1tLjdAXG1PWCOtY2FfIJSyfEIBX3jUXlN3c4KsgEQWuFdV9cSNApSbCdXdykGpS26uPE7GBAUswkhpDgnLaGyZtzGnT4GL18FeTuKx/S/Y64947A/d7O1nPPanN6w3hcdO9bI+RHYfsYn9/7CLx3vb2/snRSz2ZTatJnuFxL7cSlez9ZP7yx//zGMX1b4+Oipfc7cw7GO1o8/O1NspDHtXy96HYWe07CwMuzKNFArqLQfD3ktrgjNITlTvxUWl08EmwMPD8nXnDoatXDVeN9c4r5uSO1dR71xjfUrdnh5kMgeFO/pwJTaxiU1sYhOb2MQmNrGJ/XciJ2MrOoltav7BTSxGIzqJLqyazZbX4pJeG2ljre5OfIsYyFzCZHYybqRVPFl7WowYypLJ7JhkpJUYqz1FjbFnTWavPLBZxGCITWxiE5vYxCY2sYlN7Edgy1Zjm7RM+Goye3PjYYuyBWPsZfOXwKJuX8e/15fAq3NG1PPrVthwSGo3HJZmdReSy+v/yvYO6NFc0IPQoMfOXQE8tr8DtaQCtICFjeKVCw2XqpzsmMVZrAutFK6zUsLXhVV42FkrmLSP8F5/aEYURSn/a8u8JFojMyG/lx+2a+pTbY6OHne/xzP0jp++1/PyND8+6LFE+t09zx029vs0D02dN9TnU4PNDCPtXH2k5Ll2BpOn76vufPAZY3BuMHXVDadmzBkUhKCTwaVlYKDFwrwf7DD3WxXw+KcAAAAASUVORK5CYII=
-    </icon>
+    <icon />
     <properties>
         <propertyGroup caption="General">
             <propertyGroup caption="General">
