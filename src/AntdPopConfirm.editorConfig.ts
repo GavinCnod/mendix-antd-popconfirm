@@ -1,5 +1,5 @@
 import { AntdPopConfirmPreviewProps } from "../typings/AntdPopConfirmProps";
-//import { hidePropertyIn, hidePropertiesIn } from "@mendix/pluggable-widgets-tools";
+// import { hidePropertyIn, hidePropertiesIn } from "@mendix/pluggable-widgets-tools";
 
 export type Platform = "web" | "desktop";
 

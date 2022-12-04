@@ -6,13 +6,14 @@ export class preview extends Component<AntdPopConfirmPreviewProps> {
     render(): ReactNode {
         return (
             <Popconfirm
-                open = {true}
+                open
                 title={this.props.popTitle}
                 okText={this.props.popOKText}
-                cancelText={this.props.popCancelText}>
-                    {this.props.popContain}
+                cancelText={this.props.popCancelText}
+            >
+                {this.props.popContain}
             </Popconfirm>
-        )
+        );
     }
 }
 
