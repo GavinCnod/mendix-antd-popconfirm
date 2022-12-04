@@ -60,7 +60,10 @@ A Mendix widget provide simple and compact confirmation dialog of an action, whi
 | title                 | 确认框的描述                                | Y    |                      |
 | onCancel              | 点击取消的回调                              | Y    |                      |
 | onConfirm             | 点击确认的回调                              | Y    |                      |
+
 此外，从共用部分参数的 `Tooltip` 中引入以下参数。
+| antd 组件参数             | 参数说明                                       | 是否支持 | 备注                   |
+| --------------------- | ------------------------------------------ | ---- | -------------------- |
 | overlayClassName             | 卡片类名                             | Y    |                 |
 
 ## Issues, suggestions and feature requests
