@@ -52,3 +52,4 @@ jobs:
                   title: "${{ steps.package.outputs.widgetName }}"
                   files: |
                       dist/**/*.mpk
+
