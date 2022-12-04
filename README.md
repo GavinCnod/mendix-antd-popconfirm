@@ -71,6 +71,8 @@ A Mendix widget provide simple and compact confirmation dialog of an action, whi
 | antd 组件参数             | 参数说明                                       | 是否支持 | 备注                   |
 | --------------------- | ------------------------------------------ | ---- | -------------------- |
 | overlayClassName             | 卡片类名                             | Y    |                 |
+| Placement             | 弹出框相对子组件的位置，共12种选项。           | Y    |                 |
+
 
 ## Issues, suggestions and feature requests
 [link to GitHub issues]
@@ -78,7 +80,7 @@ A Mendix widget provide simple and compact confirmation dialog of an action, whi
 ## Development and contribution
 
 1. Install NPM package dependencies by using: `npm install`. If you use NPM v7.x.x, which can be checked by executing `npm -v`, execute: `npm install --legacy-peer-deps`.
-1. Run `npm start` to watch for code changes. On every change:
+2. Run `npm start` to watch for code changes. On every change:
     - the widget will be bundled;
     - the bundle will be included in a `dist` folder in the root directory of the project;
     - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
