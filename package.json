@@ -1,0 +1,37 @@
+{
+  "name": "antdpopconfirm",
+  "widgetName": "AntdPopConfirm",
+  "version": "1.0.0",
+  "description": "A Mendix widget provide simple and compact confirmation dialog of an action, which based on Ant Design Component.",
+  "copyright": "© Mendix Technology BV 2022. All rights reserved.",
+  "author": "Gavin Chen",
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "Apache-2.0",
+  "config": {
+    "projectPath": "C:\\\\Users\\\\HP\\\\Documents\\\\Mendix\\\\AntdWidget_Gavin-main",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": 3000
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.18.0",
+    "@types/big.js": "^6.0.2",
+    "@types/react": "~17.0.1",
+    "@types/react-dom": "~17.0.1"
+  },
+  "dependencies": {
+    "antd": "^5.0.1",
+    "classnames": "^2.2.6"
+  }
+}
