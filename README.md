@@ -20,8 +20,14 @@ A Mendix widget provide simple and compact confirmation dialog of an action, whi
 ### 快速配置组件
 
 1. 选择任意页面，向页面添加一个 `Antd PopConfirm`。
-2. 向上述 `PopConfirm` 中添加子组件，可为 `Button`, `Antd Button`, `Badge`, `Text`, `Label` 等组件。
+2. 向上述 `PopConfirm` 中添加子组件，可为 `Button`, `Antd Button`, `Badge`, `Text`, `Label` 等组件。如需实现动态的 Title 文本，需将 PopConfirm 组件放在一个 Data container 容器组件中。
+   
+   <img width="378" alt="popconfirm-help-1" src="https://user-images.githubusercontent.com/24690236/205483695-954023f8-287d-4f29-869c-3042ebacf155.png">
+
 3. 为该组件设置必要的属性。包括： `Title`, `Placement`, `Confirm Text`, `Confirm Event`, `Cancel Text` , `Cancel Event`.
+   
+   <img width="434" alt="popconfirm-help-3" src="https://user-images.githubusercontent.com/24690236/205483726-68b1e4e0-261b-45ad-accb-4d08c7d66950.png">
+
 4. 运行。
    
 ## Demo 项目
