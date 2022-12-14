@@ -1,4 +1,4 @@
-https://img.shields.io/github/downloads/GavinCnod/mendix-antd-popconfirm/total?style=social
+**https://img.shields.io/github/downloads/GavinCnod/mendix-antd-popconfirm/total?style=social**![GitHub all releases](https://img.shields.io/github/downloads/GavinCnod/mendix-antd-popconfirm/total?style=social)
 
 ## 介绍
 基于 Ant Design PopConfirm 组件封装的 Mendix Pluggable Widget，提供功能完备的弹出式浮动确认对话框。和弹出式的全屏居中模态对话框相比，交互形式更轻量。
