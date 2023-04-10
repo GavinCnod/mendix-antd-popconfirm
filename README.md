@@ -1,79 +1,78 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/GavinCnod/mendix-antd-popconfirm/total?style=social)
 
-## 介绍
-基于 Ant Design PopConfirm 组件封装的 Mendix Pluggable Widget，提供功能完备的弹出式浮动确认对话框。和弹出式的全屏居中模态对话框相比，交互形式更轻量。
-A Mendix widget provide simple and compact confirmation dialog of an action, which based on Ant Design Component.
+Readme here: [Readme in English](https://github.com/GavinCnod/mendix-antd-popconfirm/blob/main/README.md) | [Readme in Chinese (中文）](https://github.com/GavinCnod/mendix-antd-popconfirm/blob/main/README_CN.md)
 
-## 功能特性
-1. 提供基于 Mendix textTemplate 的文本拼装能力渲染对话框标题。
-2. 可自定义确认/取消（Confirm/Cancel）按钮文本。
-3. 可自定义对话框相对位置（placement），默认包含12种。
-4. 可自定义对话框 CSS 样式，通过配置项中的 Class Name 引入。
-5. 除默认带双按钮的默认样式，可定义仅确认（Confirm）按钮的简化样式。
-6. 容器中可容纳多种类型的 Mendix Widget（支持 OnClick 事件即可）。
+## Introduction
+A Mendix widget provide simple and compact confirmation dialog of an action, which based on Ant Design Component [Popconfirm](https://ant.design/components/popconfirm). The difference with the confirm modal dialog is that it's more lightweight than the static popped full-screen confirm modal.
 
-## 快速安装和使用
+## Features
+1. The Title, OK/Confirm button text and Cancel button text can be modified. 
+2. The Title can render based on Mendix textTemplate pluggable widget feature.
+3. There are 12 placement options available.。
+4. Customizing of dialog CSS style with the `Class Name` parameter.
+5. To futher simplify the UX, only Confirm button but without Cancel button also available.
+6. Acting as a container to contain multi Mendix Widgets (need `OnClick` event).
 
-### 将该组件添加到 Mendix Project 中
-1. 从右边 Releases 处下载 mpk 文件。
-2. 把 mpk 文件复制到您的 Project 目录下 `{YourMendixProjectFolder}/widgets/`
-3. 用 Mendix Studio Pro 打开你的 Mendix Project，然后点击菜单 `Menu > App > Synchronize App Directory`.
+## Installation and Usage
 
-### 快速配置组件
+### Add this widget to the Mendix Project
+1. Download the mpk file from [here](https://github.com/GavinCnod/mendix-antd-popconfirm/releases).
+2. Copy the mpk file to your Mendix Project directory `{YourMendixProjectFolder}/widgets/`.
+3. Open your Mendix Project with Mendix Studio Pro and click on the menu `Menu > App > Synchronize App Directory`.
 
-1. 选择任意页面，向页面添加一个 `Antd PopConfirm`。
-2. 向上述 `PopConfirm` 中添加子组件，可为 `Button`, `Antd Button`, `Badge`, `Text`, `Label` 等组件。如需实现动态的 Title 文本，需将 PopConfirm 组件放在一个 Data container 容器组件中。
+### Set properties
+
+1. Add widget `Antd PopConfirm` to a Page.
+2. Add sub-widget in the `PopConfirm` container，can be `Button`, `Antd Button`, `Badge`, `Text`, `Label` and etc. The Title can use some dynamic text in Mendix (need to put PopConfirm in a Data container).
    
    <img width="378" alt="popconfirm-help-1" src="https://user-images.githubusercontent.com/24690236/205483695-954023f8-287d-4f29-869c-3042ebacf155.png">
 
-3. 为该组件设置必要的属性。包括： `Title`, `Placement`, `Confirm Text`, `Confirm Event`, `Cancel Text` , `Cancel Event`.
+3. Config the parameters, including: `Title`, `Placement`, `Confirm Text`, `Confirm Event`, `Cancel Text` , `Cancel Event`.
    
    <img width="434" alt="popconfirm-help-3" src="https://user-images.githubusercontent.com/24690236/205483726-68b1e4e0-261b-45ad-accb-4d08c7d66950.png">
 
-4. 运行。
+4. Run the project locally and check.
    
-## Demo 项目
+## Demo Project
 
-1. 你可以在[这里](todo)访问在线 demo。  
-2. 也可以下载 demo project，在自己的 Mendix Studio Pro 上启动运行。具体方法如下：
-    1. clone demo project。
-    2. 运行。
+1. You can access the online demo from [here](https://demo-antdwidgets100.apps.ap-2a.mendixcloud.com/) to show the features of this widget.
+2. You can also download the demo project to run it on your own PC.
 
-## 详细配置说明
+## Datail of properties
 ### General Section
-* Title：弹出框标题。
-* Disabled：是否禁用弹出框，默认为`No`.
-* Placement：弹出框相对子组件的位置，共12种选项。
-* Class Name：弹出框样式。
+* Title：Pop dialog title.
+* Disabled：Disabled or not, default as `No`.
+* Placement：Dialog placement.
+* Class Name：CSS style.
 ### Confirm Setting Section
-* Confirm Text：确认按钮文本。
-* On Confirm Event：点击确认按钮事件。
+* Confirm Text：OK/Confirm button text.
+* On Confirm Event：OK/Confirm button event.
 ### Cancel Setting Section
-* Show Cancel：是否展示取消按钮，默认为`Yes`.
-* Cancel Text：取消按钮文本。
-* On Cancel Event：点击取消按钮事件。
+* Show Cancel：Show Cancel button or not, default as `Yes`.
+* Cancel Text：Cancel button text.
+* On Cancel Event：Cancel button event.
 
-## 与 `antd` PopConfirm 的功能对比
+## Comparing the `antd` `PopConfirm` 
 
-这里列举了 `antd` 中 `PopConfirm` 的所有参数，并说明了该组件是否支持该属性，以及不支持的原因。如果想查看`antd`中原属性的含义，请[移步这里](https://ant.design/components/popconfirm)。
+Here is a list of all the properties of `Popconfirm` in `antd`, with a description of whether this widget supports the property and why it does not. To see the meaning of the original property in antd, please [move here](https://ant.design/components/popconfirm)。
 
-| antd 组件参数             | 参数说明                                       | 是否支持 | 备注                   |
+| antd properties             | Description                                       | Supported | Comments                 |
 | --------------------- | ------------------------------------------ | ---- | -------------------- |
-| cancelText            | 取消按钮文字                                | Y    |                      |
-| disabled              | 阻止点击 Popconfirm 子元素时弹出确认框       | Y    |                     |
-| icon                  | 自定义弹出气泡 Icon 图标                    | N    | 存在 CSS 覆盖问题待补全     |
-| okText                | 确认按钮文字                                | Y    |                      |
-| okType                | 确认按钮类型                                | N    | 暂无需用到                     |
-| showCancel            | 是否显示取消按钮                            | Y    |                      |
-| title                 | 确认框的描述                                | Y    |                      |
-| onCancel              | 点击取消的回调                              | Y    |                      |
-| onConfirm             | 点击确认的回调                              | Y    |                      |
+| cancelText            | Cancel button text                                | Y    |                      |
+| disabled              | Whether show popconfirm dialog or not       | Y    |                     |
+| icon                  | Customize icon of confirmation                   | N    | WIP     |
+| okText                | OK/Confirm button text                                | Y    |                      |
+| okType                | OK/Confirm button type                                | N    | No need in Mx Widget                     |
+| showCancel            | Show cancel button                            | Y    |                      |
+| title                 | Title of pop dialog                                | Y    |                      |
+| onCancel              | Cancel button event                              | Y    |                      |
+| onConfirm             | OK/Confirm button event                              | Y    |                      |
 
-此外，从共用部分参数的 `Tooltip` 中引入以下参数。
-| antd 组件参数             | 参数说明                                       | 是否支持 | 备注                   |
+Besides, some properties from `Tooltip` are also available.
+| antd properites             | Description                                       | Supported | Comments                   |
 | --------------------- | ------------------------------------------ | ---- | -------------------- |
-| overlayClassName             | 卡片类名                             | Y    |                 |
-| Placement             | 弹出框相对子组件的位置，共12种选项。           | Y    |                 |
+| overlayClassName             | CSS style                             | Y    |                 |
+| Placement             | Dialog placement with 12 options           | Y    |                 |
 
 
 ## Issues, suggestions and feature requests
